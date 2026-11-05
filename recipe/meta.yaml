@@ -1,5 +1,5 @@
 {% set name = "rq_geo_toolkit" %}
-{% set version = "2026.10.1" %}
+{% set version = "2026.11.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/rq_geo_toolkit-{{ version }}.tar.gz
-  sha256: 781a8a2ffac31dbaa4f32745edc0c8b33ba8244f1d8d46f5d4c2543749c9c2c0
+  sha256: 2ab3632e41124c9e5c27e45dcef57998bd44b2e89e25311fe2b9c9c42697c309
 
 build:
   noarch: python
